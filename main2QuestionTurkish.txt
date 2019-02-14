@@ -1,0 +1,6 @@
+Girilen N sayýsý için N. asal sayýyý bulan programýn akýþ þemasýný çiziniz. Çözümünüzün doðru
+olduðunu teyit etmek için analiz yapmanýz önerilir. Asal sayýlarý bulurken hazýr bir asal sayýlar
+listesi kullanýlmamalýdýr.
+Örnek Input & Output:
+->Input: 41
+->Output: 179
