@@ -1,0 +1,23 @@
+Baþlangýçta alt sýnýr 0, üst sýnýr 1000’dir. Önce 0 ile 1000 arasýnda (0 ve 1000 dahil
+deðil) rastgele bir sayý bulunacaktýr. Bu bulunan yeni sayý yeni üst sýnýr olarak belirlenir
+ve alt sýnýr olan 0 arasýnda baþka bir rastgele sayý bulunur. Bu sefer, yeni bulunan sayý
+yeni alt sýnýrdýr. Örneðin; 0 ile 1000 arasý önce 800 sayýsý bulunduysa, bir sonraki
+aþamada 0 ile 800 arasýnda rastgele bir sayý bulunur. 0 ile 800 sayýlarý arasýnda bulunan
+sayýnýn 400 olduðunu var sayarsak bir sonraki el 400 ile 800 arasýnda baþka bir rastgele
+sayý aranýr.
+Aralýðýn gitgide daralmasý sonucu en sonunda alt-üst sýnýrlarýn ardýþýk sayýlara denk
+gelmesine kadar devam eden bir program yazýnýz.
+Belirlenen aralýkta rastgele sayýnýn bulunmasý için sýnýrlar farklý çýkmalýdýr. Rastgele sayý
+bulunmasý için C’de <stdlib.h> standart kütüphanesindeki rand() fonksiyonu
+kullanýlmalýdýr.
+Örnek Output:
+1.el: 0-1000 arasinda 700 sayisi bulundu. Yeni ust sinir = 700.
+2.el: 0-700 arasinda 200 sayisi bulundu. Yeni alt sinir = 200.
+3.el: 200-700 arasinda 467 sayisi bulundu. Yeni ust sinir = 467.
+4.el: 200-467 arasinda 312 sayisi bulundu. Yeni alt sinir = 312.
+5.el: 312-467 arasinda 320 sayisi bulundu. Yeni ust sinir = 320.
+6.el: 312-320 arasinda 318 sayisi bulundu. Yeni alt sinir = 318.
+7.el: 318-320 arasinda 319 sayisi bulundu. Yeni ust sinir = 319.
+---------------------------------------------------------------------------------
+Sonuc olarak 318,319 ardisik sayilari bulunmustur.
+Program basariyla tamamlanmistir.
