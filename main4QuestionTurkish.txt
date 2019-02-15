@@ -1,4 +1,0 @@
-10’luk tabandaki pozitif bir tam sayýyý 2’lik tabana çeviren programý yazýnýz.
-Örnek Input & Output:
--> Input: 958
--> Output: 1110111110
