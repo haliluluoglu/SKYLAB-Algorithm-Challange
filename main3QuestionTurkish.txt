@@ -1,9 +1,0 @@
-Bir string’de (char dizisinde) bütün karakterlerin stringin tümünde tekil olup olmadığını
-bulunuz. Eğer bütün karakterler stringin tümünde tekil değilse; stringteki tekrarlayan tüm
-karakterlerin ilk ortaya çıkışlarından sonraki tüm tekrarlarını silecek kod parçasını yazın.
-Örnek Input & Output #1:
--> Input: abcfts
--> Output: “abcfts” -> hepsi tekil.
-Örnek Input & Output #2:
--> Input: ab-c-yaabkkl?
--> Output: “ab-c-yaabkkl?” -> hepsi tekil degil. Tekil hali: “ab-cykl?”
